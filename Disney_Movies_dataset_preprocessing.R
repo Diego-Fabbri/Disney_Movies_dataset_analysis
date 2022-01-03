@@ -67,5 +67,3 @@ data[index,1] <- no #replace values with anomalous characters
 
 #Export preprocessed dataset as .xlsx file
 write_xlsx(data,".\\Disney Movies Preprocessed.xlsx")
-
-data <- data[order(data$Total_Gross,decreasing = TRUE),]
